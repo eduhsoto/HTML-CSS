@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -79,12 +78,6 @@ a{
 .item:hover{
     color: var(--secondary_color);
 }
-
-
-/* .item:hover{
-    background-color: var(--secondary_color);
-
-} */
 
 .social{
     margin: 0 10px;  
@@ -230,7 +223,7 @@ footer{
     margin: 0px 10px;
 }
 
-.footer__button{
+.footer__button, .certificate__link{
     padding: 10px 10px;
     width: 50%;
     text-align: center;
@@ -240,7 +233,7 @@ footer{
     transition: .3s;
 }
 
-.footer__button:hover{
+.footer__button:hover, .certificate__link:hover{
     background-color: var(--complementary_color);
     color: var(--primary_color);
 }
@@ -252,4 +245,76 @@ footer{
 
 .rights{
     text-align: center;
+}
+
+/* trayectotia */
+
+.description__left{
+    background: linear-gradient(-270deg, rgba(243, 90, 126, 0.98) 26.24%, rgba(249, 175, 122, 0) 94.14%);
+    padding: 80px 80px;
+}
+
+.flex__columns{
+    flex-direction: column;
+}
+
+.card__{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.card__timeline{
+    padding: 20px 20px;
+    border: 1px solid #49494940;
+}
+
+.timeline1{
+    align-self: flex-start;
+}
+
+.timeline2{
+    align-self: flex-end;
+}
+
+.timeline3{
+    margin-top: 50px;
+}
+
+.lines{
+    height: 400px;
+}
+
+.name__bussines{
+    font-weight: 400;
+}
+
+.date__work{
+    font-weight: 700;
+    color: var(--complementary_color);
+    margin-bottom: 6px;
+}
+
+.certificate__image{
+    width: 80%;
+}
+
+.certificate__group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.certificate__link{
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.certificates__row{
+    display: flex;
+    margin-top: 30px;
 }
