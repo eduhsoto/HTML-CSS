@@ -19,25 +19,34 @@
     <nav class="nav">
         <div class="nav__container">
             <a href="" ><img src="assets/brand-logo.jpg" alt="bax logo" class="brand__logo"></a>
+
+            <label for="menu" class="nav__label">
+                <img src="assets/menu_hamburger.svg" alt="menu icon">
+            </label>
+            <input type="checkbox" id="menu" class="nav__input">
         
             <div class="nav__item">
                 <a href="" class="item">Cursos</a>
-                <a href="" class="item">Testimonios</a>
-                <a href="" class="item">Nosotros</a>
+                <a href="#testinomios" class="item">Testimonios</a>
+                <a href="#staff"" class="item">Nosotros</a>
                 <a href="" class="item">Contacto</a>
             </div>
         </div>
     </nav>
 
     <section>
-        <div class="container">
+        <div class="container grid__phone">
             <div class="content__rigth">
                 <h1 class="text__principal">Capacitamos personas para que cumplan su sueño emprendedor</h1>
                 <p class="p__header">Te acompañamos en tu camino con profesionales experimentados y las mejores herramientas.</p>
+                <a href="" class="button__cta button__desktop">Conoce nuestros cursos</a>
+            </div>
+
+            <div class="grid__phone__item2">
                 <a href="" class="button__cta">Conoce nuestros cursos</a>
             </div>
 
-            <div class="content__left">
+            <div class="content__left grid__phone__item3">
                 <img src="assets/enterprising-couple-in-cafeteria.jpg" alt="enterprising couple in cafeteria" class="enterprising">
             </div>
         </div>
@@ -124,7 +133,7 @@
         <img src="assets/curve-graduate.svg" alt="curve-graduate" class="curves">
     </section>
 
-    <section>
+    <section id="testinomios">
         <div class="container flex__colum">
             <h2 class="testinomy">Testimonios</h2>
 
@@ -179,7 +188,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="staff">
         <div class="container card___grid">
             <div class="">
                 <h3 class="title__course title__capitalize">Staff</h3>
@@ -205,7 +214,7 @@
     <section>
         <div class="container flex__colum flex__center colum__center">
             <div class="content__rigth">
-                <h2 class="text__principal center__text">Si queres potenciarte y capacitarte, este es tu lugar.</h2>
+                <h2 class="text__principal center__text">Si quieres potenciarte y capacitarte, este es tu lugar.</h2>
             </div>
             
             <a href="" class="button__cta">Quiero inscribirme</a>
