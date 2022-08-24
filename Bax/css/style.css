@@ -11,7 +11,6 @@ box-sizing: border-box;
     --color_primary_3: #010135;
     --color_tertiary: #232353;
     --accent_color:#F4CF2F;
-
 }
 
 h1, h2, h3, a{
@@ -99,7 +98,6 @@ h2{
     margin-bottom: 40px;
     color: var(--color_primary_3);
     position: relative;
-
 }
 
 h2::after{
@@ -214,9 +212,7 @@ h3{
     ". element1 element1 element1" 
     "element2 element2 element2 ."
     ". element3 element3 element3";
-
 }
-
 
 .course2{
     grid-area: element2;
@@ -224,12 +220,10 @@ h3{
 
 .course1{
     grid-area: element1;
-
 }
 
 .course3{
     grid-area: element3;
-
 }
 
 .item__course {
@@ -629,7 +623,4 @@ h3{
         grid-area: element2;
         justify-self: center;
     }
-
-    
-    
 } 
