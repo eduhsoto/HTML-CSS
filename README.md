@@ -1,3 +1,3 @@
 # HTML-CSS
 
-Practicando HTML Y CSS con sitios web.
+Practicando con puro HTML Y CSS.
